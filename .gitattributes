@@ -1,0 +1,15 @@
+# Ana dil: TypeScript
+*.ts linguist-detectable=true
+
+# İstatistikte yer almasın:
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.json linguist-detectable=false
+*.xml linguist-detectable=false
+
+# Eğer JS derleme çıktısı çoksa onları da hariç tut:
+*.js linguist-detectable=false
+
+# Build çıktıları
+dist/** linguist-generated=true
+*.map linguist-generated=true
